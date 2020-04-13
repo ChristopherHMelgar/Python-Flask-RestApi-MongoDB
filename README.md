@@ -12,8 +12,15 @@
 
 >If you need generate a requirements.txt just use this command:
 
-````pip freeze > requirements.txt ``` 
+``` pip freeze > requirements.txt ``` 
 
 * Run the application 
 
 ``` flask run ```
+
+## Note
+
+You need add .env like this
+
+<pre><code> source env/bin/activate
+ export DATABASE_URL={YOU_DATABASE_URL}  </pre></code>
